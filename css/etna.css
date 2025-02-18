@@ -1,0 +1,240 @@
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+}
+
+.intestazione {
+  color:rgba(94, 48, 35, 1);
+  padding: 5px;
+  text-align :center
+}
+.intestazione p{
+  text-align: left;
+  display: flex;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5px;
+  background-color: white;
+  border-bottom: 3px solid whitesmoke;
+  font-weight:bold ;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+.nav .parchi {
+  color:rgba(94, 48, 35, 1);
+}
+h1 {
+font-size: 50px;
+font-weight:bold;
+margin: 0;
+color:rgba(94, 48, 35, 1);
+text-align: center;
+}
+h3{
+  color:rgb(0, 0, 0);
+  font-size: 20px;
+}
+h4 {
+  font-size: 18px;
+  margin: 5px 0 0;
+  color:rgba(94, 48, 35, 1);
+  border-bottom: 3px solid rgba(193, 133, 83, 1);
+  margin-bottom: 20px;
+}
+h2{
+font-size: 16px;
+font-weight: lighter;
+color: rgba(54, 54, 54, 1);
+}
+.introduzione {
+display: flex;
+flex-direction: column;
+}
+.intro {
+font-size: 16px;
+width: 70%;
+}
+.corpo {
+width: 80%;
+margin: 0 auto;
+}
+  .CONTENUTO{
+    display: flex;
+    flex-direction: column;
+  }
+  .SECONDO{
+    display:flex ;
+    gap: 25px;
+  }
+
+  .SECONDO img{
+    padding-top: 90px;
+    object-fit: cover;
+    width: 1000px;
+    height: 400px;
+  }
+  .TERZO{
+    display:flex ;
+    gap: 25px;
+    padding-top: 20px;
+  }
+  .TERZO img{
+    padding-top: 90px;
+    object-fit: cover;
+    width: 1000px;
+    height: 400px;
+  }
+.PARCHIHOME{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 35px;
+    width: 100%;
+}
+.PARCHIHOME p{
+  align-content: center;
+    width:auto; 
+}
+.PARCHIHOME a{
+  text-decoration: none;
+  color: rgba(94, 48, 35, 1);
+  font-weight:bold;
+  font-size: 18px;
+  border-bottom: 3px solid rgba(193, 133, 83, 1);
+}
+.PARCHIHOME img{
+  margin-top: 10px;
+  width: 100%;
+  height: 70%;
+  border-radius: 8%;
+}
+.PARADISO{
+    flex-direction:row;
+    padding-top: 30px;
+    width: 30%;
+}
+  .DOLOMITI{
+    flex-direction:row; 
+    padding-top: 30px;
+    width: 30%;
+  }
+  .POLLINO{
+    flex-direction:row; 
+    padding-top: 30px;
+    width: 30%;
+  }
+  .footer {
+    color:rgba(94, 48, 35, 1);
+    border-top: 3px solid whitesmoke;
+    margin-top: 50px;
+    text-align: left;
+    font-size: small;
+    padding: 40px;
+    line-height: 5px;
+  }
+
+  .footer p{
+    padding: 1px;
+  }
+  .footer a {
+    padding: 1px;
+    text-decoration: none;
+    color:rgba(94, 48, 35, 1);
+  }
+
+  .footer .borderright {
+    border-right: 1px solid rgba(94, 48, 35, 1);
+  }
+  @media (max-width: 600px) {
+
+    h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+    h3 {
+        text-align: center;
+        font-size: 20px;
+    }
+    header {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+  }
+    .navigazione {
+      display: flex;
+      justify-content: center;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+      text-align: center;
+      padding: 0;
+    }
+  
+    nav ul li {
+      display: block;
+      width: 100%;
+    }
+    .intro {
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+    }
+    .SECONDO, .TERZO {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .SECONDO img, .TERZO img {
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+    }
+
+    .PARCHIHOME {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+    }
+
+    .PARCHIHOME a {
+        text-align: center;
+    }
+
+    .PARCHIHOME img {
+      width: 100%;
+      height: auto;
+    }
+
+    .PARADISO, .DOLOMITI, .POLLINO{
+      width: 100%;
+      text-align: center;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+    }
+}

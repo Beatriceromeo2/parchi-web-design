@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  .intestazione {
+    color:rgba(94, 48, 35, 1);
+    padding: 5px;
+    text-align: center;
+  }
+  .intestazione p{
+    text-align: left;
+    display: flex;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+    background-color: white;
+    border-bottom: 3px solid whitesmoke;
+    font-weight:bold ;
+  }
+  .nav .Parchi {
+    color:rgba(94, 48, 35, 1);
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+
+h1{
+  font-size: 50px;
+  margin: 0;
+  font-weight:bold;
+  color:rgba(94, 48, 35, 1);
+  text-align: center;
+}
+  .introduzione {
+    display: flex;
+    flex-direction: column;
+  }
+  .intro {
+    font-size: 16px;
+    width: 50%;
+  }
+  .corpo {  
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .PARCHI{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 150px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.PARCHI img{
+  margin-top: 20px;
+  width: 100%;
+  height: 80%;
+  border-radius: 8px;
+}
+.PARCHI a{
+  text-decoration: none;
+  color: rgba(94, 48, 35, 1);
+  font-weight:bold;
+  font-size: 24px;
+}
+.PARADISO{
+  width: 500px;
+    text-align: left;
+}
+  .ETNA{
+    width: 500px;
+    text-align: left;
+  }
+  .POLLINO{
+    width: 500px;
+    text-align: left;
+  }
+  .DOLOMITI{
+    width: 500px;
+    text-align: left;
+  }
+
+  .footer {
+    color:rgba(94, 48, 35, 1);
+    border-top: 3px solid whitesmoke;
+    margin-top: 50px;
+    text-align: left;
+    font-size: small;
+    padding: 40px;
+    line-height: 5px;
+  }
+
+  .footer p{
+    padding: 1px;
+  }
+  .footer a {
+    padding: 1px;
+    text-decoration: none;
+    color:rgba(94, 48, 35, 1);
+  }
+
+  .footer .borderright {
+    border-right: 1px solid rgba(94, 48, 35, 1);
+  }
+  @media (max-width: 600px) {
+    .intestazione {
+      text-align: center;
+    }
+    .intestazione p {
+      justify-content: center;
+    }
+    header {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+  }
+  .PARCHI a{
+    font-size: 20px;
+  }
+  
+    .navigazione {
+      display: flex;
+      justify-content: center;
+    }
+    h1 {
+      font-size: 28px;
+      text-align: center;
+  }
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+      text-align: center;
+      padding: 0;
+    }
+  
+    nav ul li {
+      display: block;
+      width: 100%;
+    }
+    .intro {
+      width: 100%;
+      margin: 20px 0;
+      text-align: center;
+    }
+    .PARCHI {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+    }
+  
+    .PARCHI img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .PARCHI a {
+      text-align: center;
+    }
+  
+    .PARADISO, .ETNA, .POLLINO, .DOLOMITI {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .footer {
+      text-align: center;
+      padding: 20px;
+    }
+  }

@@ -1,0 +1,217 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+  }
+  .intestazione {
+    color:rgba(94, 48, 35, 1);
+    padding: 5px;
+    text-align :center;
+  }
+  .intestazione p{
+    text-align: left;
+    display: flex;
+  }
+ 
+  header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5px;
+  background-color: white;
+  border-bottom: 3px solid whitesmoke;
+  font-weight:bold ;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+.nav .home {
+  color:rgba(94, 48, 35, 1);
+  padding: 3px;
+}
+h1 {
+    font-size: 46px;
+    margin: 10px;
+    color:rgba(94, 48, 35, 1);
+    text-align: center;
+  }
+h3 {
+    font-size: 18px;
+    margin: 5px 0 0;
+    color:rgba(94, 48, 35, 1);
+    border-bottom: 3px solid rgba(193, 133, 83, 1);
+    margin-bottom: 20px;
+}
+h2{
+  font-size: 20px;
+  color: rgba(193, 133, 83, 1);
+  text-align: center;
+  margin-top: 2px;
+
+}
+  .intro{
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .corpo {
+    width: 80%;
+    margin: 0 auto;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+  }
+.PARCHIHOME{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.PARCHIHOME a{
+  color:rgba(94, 48, 35, 1);
+}
+.PARADISO p{
+    align-content: center;
+    width:auto;
+  }
+
+  .PARADISO img{
+    width: 100%;
+    height: 60%;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+.DOLOMITI p{
+    align-content: center;
+    width: auto;
+  }
+
+  .DOLOMITI img{
+    width: 100%;
+    height: 60%;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+.ETNA p{
+    align-content: center;
+    width:auto,
+  }
+
+  .ETNA img{
+    width: 100%;
+    height: 60%;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  .POLLINO p{
+    align-content: center;
+    width:auto,
+  }
+  .POLLINO img{
+    width: 100%;
+    height: 60%;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  .footer {
+    color:rgba(94, 48, 35, 1);
+    border-top: 3px solid whitesmoke;
+    margin-top: 50px;
+    text-align: left;
+    font-size: small;
+    padding: 40px;
+    line-height: 5px;
+  }
+  
+  .footer p{
+    padding: 1px;
+  }
+  .footer a {
+    padding: 1px;
+    text-decoration: none;
+    color:rgba(94, 48, 35, 1);
+  }
+  
+  .footer .borderright {
+    border-right: 1px solid rgba(94, 48, 35, 1);
+  }
+  @media (max-width: 600px){
+    .intestazione {
+      text-align: center;
+    }
+     .intestazione p {
+      justify-content: center;
+    }
+    header {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+  }
+    .navigazione {
+      display: flex;
+      justify-content: center;
+    }
+    h1 {
+      font-size: 28px;
+      text-align: center;
+  }
+  h2 {
+    font-size: 16px;
+    text-align: center;
+}
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+      text-align: center;
+      padding: 0;
+    }
+    nav ul li {
+      display: block;
+      width: 100%;
+    }
+    .intro {
+      width: 100%;
+      margin: 20px 0;
+      text-align: center;
+    }
+    .PARCHIHOME {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .PARCHIHOME section {
+      width: 90%;
+      text-align: center;
+    }
+    .PARCHIHOME img {
+      width: 100%;
+      height: auto;
+    }
+    .PARCHIHOME a {
+      display: block;
+      margin-top: 10px;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+    }
+  }

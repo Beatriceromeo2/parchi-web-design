@@ -1,0 +1,209 @@
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+}
+
+.intestazione {
+  color:rgba(94, 48, 35, 1);
+  padding: 5px;
+  text-align: center;
+}
+.intestazione p{
+  text-align: left;
+  display: flex;
+}
+h1 {
+  font-size: 50px;
+  margin: 0;
+  font-weight:bold;
+  color:rgba(94, 48, 35, 1);
+  text-align: center;
+}
+h2{
+  font-size: 24px;
+  color: rgba(94, 48, 35, 1);
+  padding-top: 20px;
+}
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 5px 5px;
+background-color: white;
+border-bottom: 3px solid whitesmoke;
+font-weight:bold ;
+}
+nav ul {
+list-style: none;
+display: flex;
+gap: 35px;
+padding: 0;
+margin: 0;
+}
+
+nav ul li {
+display: inline;
+}
+
+nav ul li a {
+text-decoration: none;
+color: black;
+font-size: 14px;
+}
+.nav .attività {
+  color:rgba(94, 48, 35, 1);
+}
+
+.introduzione {
+  display: flex;
+  flex-direction: column;
+}
+.intro {
+  font-size: 16px;
+  width: 50%;
+}
+.corpo {
+  width: 80%;
+  margin: 0 auto;
+}
+article{
+  display: flex;
+  flex-direction: row;
+  padding-top: 60px;
+}
+article a{
+  text-decoration: none;
+  display: flex;
+  width: 50%;
+  color: gray;
+  border-bottom: 2px solid gray; 
+}
+.Attività{
+display: flex;
+flex-direction: column;
+}
+.PARADISO {
+display: flex;
+flex-direction: column;
+}
+.descrizione {
+padding-right: 5%;
+display: flex;
+flex-direction: row;
+}
+.descrizione img {
+width: 40%;
+border-radius: 5%;
+object-fit: cover;
+}
+.descrizione p{
+display: flex;
+flex-direction: column;
+padding-right: 5%;
+}
+.ETNA{
+  display: flex;
+  flex-direction: column;
+}
+
+.POLLINO{
+  display: flex;
+  flex-direction: column;
+}
+
+.DOLOMITI{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  color:rgba(94, 48, 35, 1);
+  border-top: 3px solid whitesmoke;
+  margin-top: 50px;
+  text-align: left;
+  font-size: small;
+  padding: 40px;
+  line-height: 5px;
+}
+
+.footer p{
+  padding: 1px;
+}
+.footer a {
+  padding: 1px;
+  text-decoration: none;
+  color:rgba(94, 48, 35, 1);
+}
+
+.footer .borderright {
+  border-right: 1px solid rgba(94, 48, 35, 1);
+}
+@media (max-width: 600px) {
+  .intestazione {
+    text-align: center;
+  }
+  .intestazione p {
+    justify-content: center;
+  }
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+  .navigazione {
+    display: flex;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 28px;
+    text-align: center;
+}
+h2{
+  font-size: 20px;
+}
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: block;
+    width: 100%;
+  }
+  .intro {
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .Attività {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .descrizione {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .descrizione img {
+    width: 90%;
+    margin-top: 10px;
+  }
+  article a {
+    width: auto;
+    margin-top: 10px;
+  }
+  .footer {
+    text-align: center;
+    padding: 20px;
+  }
+}
+
+  
