@@ -197,7 +197,9 @@ h2{
       align-items: center;
       gap: 20px;
     }
-  
+    .PARCHIHOME p{
+      text-align: left;
+    }
     .PARCHIHOME section {
       width: 90%;
       text-align: center;

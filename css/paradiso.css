@@ -163,22 +163,24 @@ margin: 0 auto;
   @media (max-width: 600px) {
 
     h1 {
-        font-size: 28px;
+        font-size: 24px;
         text-align: center;
+        margin-top: 10px;
     }
     h3 {
         text-align: center;
         font-size: 20px;
-    }
-    .navigazione {
-      display: flex;
-      justify-content: center;
     }
     header {
       flex-direction: column;
       align-items: center;
       padding: 10px;
   }
+    .navigazione {
+      display: flex;
+      justify-content: center;
+    }
+  
     nav ul {
       flex-direction: column;
       gap: 10px;
@@ -193,7 +195,6 @@ margin: 0 auto;
     .intro {
     width: 100%;
     margin: 20px 0;
-    text-align: center;
     }
     .SECONDO, .TERZO {
         flex-direction: column;
@@ -210,12 +211,11 @@ margin: 0 auto;
     .PARCHIHOME {
       display: flex;
       flex-direction: column;
-      align-items: center;
       gap: 50px;
     }
 
-    .PARCHIHOME a {
-        text-align: center;
+    .PARCHIHOME p{
+        text-align: left;
     }
 
     .PARCHIHOME img {
@@ -223,7 +223,7 @@ margin: 0 auto;
       height: auto;
     }
 
-    .DOLOMITI, .ETNA, .POLLINO{
+    .POLLINO, .ETNA, .DOLOMITI{
       width: 100%;
       text-align: center;
     }
