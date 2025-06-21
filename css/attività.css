@@ -9,6 +9,7 @@ body {
   color:rgba(94, 48, 35, 1);
   padding: 5px;
   text-align: center;
+  text-decoration: none;
 }
 .intestazione p{
   text-align: left;
